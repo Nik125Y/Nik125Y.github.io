@@ -43,83 +43,72 @@
             </ol>
         </li>
         <li> <a href ="ftp://username:password@ftp.test.com:16/file.txt" > 21) Ссылка на файл на сервере FTP с авторизацией </a> </li>
-        <li>
-
     </ul>
 
 	
   <h2>Форма</h2>
 
-    <form action="/"
-      method="POST">
-
-      <label>
-        напишите ФИО:<br />
-        <input name="field-name"
-          placeholder="Иванов Иван Иванович" />
-      </label><br />
-
-      <label>
-        номер телефона:<br />
-        <input name="field-tel"
-          type="tel"
-          placeholder="Введите номер телефона" />
-      </label><br />
+    	<form action="/" method="POST">
 
 	<label>
-        email:<br />
-        <input name="field-email"
-          type="email"
-          placeholder="Введите ваш email" />
-      </label><br />
+	        напишите ФИО:<br />
+	        <input name="field-name" placeholder="Иванов Иван Иванович" />
+      	</label> <br />
 
+      	<label>
+        	номер телефона:<br />
+        	<input name="field-tel" type="tel" placeholder="Введите номер телефона" />
+      	</label><br />
 
-      <label>
-        Выберите дату рождения:<br />
-        <input name="field-date"
-          value="2000-01-01"
-          type="date" />
-      </label><br />
+	<label>
+        	email:<br />
+        	<input name="field-email" type="email" placeholder="Введите ваш email" />
+      	</label><br />
+
+      	<label>
+        	Выберите дату рождения:<br />
+        	<input name="field-data" value="2000-01-01" type="date" />
+      	</label><br />
 
  Пол:<br />
-      <label><input type="radio" checked="checked"
-        name="radio-group-1" value="Значение1" />
-        Муж</label>
-      <label><input type="radio"
-        name="radio-group-1" value="Значение2" />
-        Жен</label><br />
-
-<label>
-        Ваш ллюбимый язык программирования?:
-        <br />
-        <select name="field-name[]"
-          multiple="multiple">
-          <option value="Значение1">Pascal</option>
-          <option value="Значение2" selected="selected">C</option>
-          <option value="Значение3" selected="selected">C++</option>
-	  <option value="Значение4" selected="selected">JavaScript</option>
-	  <option value="Значение5" selected="selected">PHP</option>
-	  <option value="Значение6" selected="selected">Java</option>
-	  <option value="Значение7" selected="selected">Python</option>
-	  <option value="Значение8" selected="selected">Haskel</option>
-	  <option value="Значение9" selected="selected">Clojure</option>
-	  <option value="Значение10" selected="selected">Prolog</option>
-	  <option value="Значение11" selected="selected">Scala</option>
-
-        </select>
-      </label><br />
+      	<label> 
+		<input type="radio" checked="checked" name="radio-group-1" value="Значение1" />
+        Муж
+	</label>
+      	<label>
+		<input type="radio" name="radio-group-1" value="Значение2" />
+        Жен
+	</label><br />
 
 	<label>
-        Ваша биография:<br />
-        <textarea name="field-name" placeholder="где работаете и т.д."></textarea>
-      </label><br />
+        	Ваш ллюбимый язык программирования?: <br />
+        	<select name="field-name[]"
+		          multiple="multiple">
+		          <option value="Значение1">Pascal</option>
+		          <option value="Значение2" selected="selected">C</option>
+		          <option value="Значение3" selected="selected">C++</option>
+			  <option value="Значение4" selected="selected">JavaScript</option>
+			  <option value="Значение5" selected="selected">PHP</option>
+			  <option value="Значение6" selected="selected">Java</option>
+			  <option value="Значение7" selected="selected">Python</option>
+			  <option value="Значение8" selected="selected">Haskel</option>
+			  <option value="Значение9" selected="selected">Clojure</option>
+			  <option value="Значение10" selected="selected">Prolog</option>
+			  <option value="Значение11" selected="selected">Scala</option>
+        	</select>
+      	</label><br />
+
+	<label>
+        	Ваша биография:<br />
+        	<textarea name="field-name" placeholder="где работаете и т.д."></textarea>
+      	</label><br />
 
 С контрактом:<br />
-      <label><input type="checkbox" checked="checked"
-        name="check-1" />
-        Ознакомлен (а)</label><br />
+      	<label><input type="checkbox" checked="checked" name="check-1" />
+        Ознакомлен (а)
+	</label><br />
 
-<input type="submit" value="Сохранить" />
+	<input type="submit" value="Сохранить" />
 
 	</form>
 	<div id="down">
