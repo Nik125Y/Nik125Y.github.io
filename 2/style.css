@@ -1,6 +1,9 @@
 header {
 color: black;
 background-color:grey; 
+background-image: url(imageh.jpg);
+background-position: left top;
+background-size: 100%;
 }
 footer {
   color: black;
@@ -15,6 +18,7 @@ width: 100px;
 height: 100px;
 margin-inline: 20px;
 margin-block: 20px;
+float: left;
 }
 div.href {
   max-width:800px;
