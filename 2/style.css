@@ -2,6 +2,14 @@ header {
 color: black;
 background-color:grey; 
 }
+footer {
+  color: black;
+background-color:blue; 
+}
+nav {
+clear: both;
+background-color:lime; 
+}
 #logo {
 width: 100px;
 height: 100px;
@@ -13,11 +21,6 @@ div.href {
   background-color:#ccc;
   margin: 0 auto; margin-top:20px; padding:10px;
           }
-
-
-nav {
-clear: both;
-}
 div.center { 
   max-width:620px; 
   background-color:#d5d0b0; 
