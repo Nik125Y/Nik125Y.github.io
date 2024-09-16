@@ -5,8 +5,8 @@ background-color:grey;
 #logo {
 width: 100px;
 height: 100px;
-float: left;
-margin-right: 10px;
+margin-inline: 20px;
+margin-block: 20px;
 }
 nav {
 clear: both;
