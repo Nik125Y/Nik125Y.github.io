@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-
-  <head>
-    
-  </head>
-
 header {
 color: #400000;
 background-color: red;
@@ -13,7 +5,9 @@ background-image: url(img/bg.png);
 background-position: left top;
 background-size: 50%;
 }
- <body>
-  </body>
-
-</html> 
+ ch{background-color: blue;
+    color: red;
+ }
+nch{background-color: red;
+    color: blue;
+ }
