@@ -5,7 +5,10 @@
   <head>
     <title>Ширина, выравнивание, float</title>
   </head>
-
+#menu a {
+color: #FF0000;
+text-decoration: none;
+}
   <!-- по умолчанию body блочный элемент, занимает 100% ширины родительского элемента html и имеет небольшой отступ margin по краям -->
   <body style="margin:0;">
 
