@@ -8,6 +8,13 @@ height: 100px;
 margin-inline: 20px;
 margin-block: 20px;
 }
+div.href {
+  max-width:800px;
+  background-color:#ccc;
+  margin: 0 auto; margin-top:20px; padding:10px;
+          }
+
+
 nav {
 clear: both;
 }
