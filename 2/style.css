@@ -1,7 +1,7 @@
 header {
 color: #400000;
 background-color: red;
-background-image: url(imageT);
+background-image: url(href="/giti.jpg");
 background-position: left top;
 background-size: 50%;
 }
