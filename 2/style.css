@@ -1,9 +1,8 @@
 header {
 color: #400000;
+<img style="float:left; margin:10px; width:100px; height:100px;" src="image.png" alt="Описание картинки для скрин-ридеров и поисковиков" />
 background-color: red;
-background-image: url(giti.jpg);
-background-position: left top;
-background-size: 50%;
+
 }
 
 div.tab {
