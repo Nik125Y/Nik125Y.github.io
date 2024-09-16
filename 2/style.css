@@ -1,6 +1,6 @@
 header {
 color: #400000;
-src="giti.jpg" 
+image: url("giti.jpg"); 
 float:left; margin:10px; width:100px; height:100px;
 background-color: red;
 }
