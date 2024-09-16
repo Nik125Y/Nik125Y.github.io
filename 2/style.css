@@ -5,13 +5,8 @@ background-image: url(giti.jpg);
 background-position: left top;
 background-size: 50%;
 }
- ch{background-color: blue;
-    color: red;
- }
-nch{background-color: red;
-    color: blue;
- }
-#tab table.active{
+
+#p table.active {
  max-width:700px; 
  background-color: white;
  margin: 0 auto;
