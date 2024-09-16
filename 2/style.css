@@ -1,8 +1,8 @@
 header {
 color: #400000;
-<img style="float:left; margin:10px; width:100px; height:100px;" src="image.png" alt="Описание картинки для скрин-ридеров и поисковиков" />
+src="giti.png" 
+float:left; margin:10px; width:100px; height:100px;
 background-color: red;
-
 }
 div.center { 
   max-width:800px; 
