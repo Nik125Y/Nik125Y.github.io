@@ -11,6 +11,11 @@ background-color:blue;
 }
 nav {
 clear: both;
+  margin-left: 300px;
+  margin-right: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 background-color:#d5d0b0; 
 }
 #logo {
