@@ -5,9 +5,9 @@ float:left; margin:10px; width:100px; height:100px;
 background-color: red;
 }
 div.center { 
-  max-width:800px; 
-  background-color:#ccc; 
-  margin: 0 auto; 
+  max-width:620px; 
+  background-color:#b1aa76; 
+  margin: auto; 
   margin-top:20px; 
   padding:10px;
 }
