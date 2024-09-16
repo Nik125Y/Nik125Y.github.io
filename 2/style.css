@@ -1,8 +1,12 @@
 header {
-color: #400000;
-image: url("giti.jpg"); 
-float:left; margin:10px; width:100px; height:100px;
-background-color: red;
+color: black;
+background-color:grey; 
+}
+#logo {
+width: 100px;
+height: 100px;
+float: left;
+margin-right: 10px;
 }
 div.center { 
   max-width:620px; 
