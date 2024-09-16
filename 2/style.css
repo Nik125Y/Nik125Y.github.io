@@ -18,7 +18,7 @@ font-weight: bold;
 font-style: italic;
 line-height: 120%
 }
-div.ch {
+#ch td {
   background-color:#b6cc4d;
 }
 div.nch {
