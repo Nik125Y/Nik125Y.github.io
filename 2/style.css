@@ -8,6 +8,9 @@ height: 100px;
 float: left;
 margin-right: 10px;
 }
+nav {
+clear: both;
+}
 div.center { 
   max-width:620px; 
   background-color:#b1aa76; 
