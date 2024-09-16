@@ -9,6 +9,13 @@
 color: #FF0000;
 text-decoration: none;
 }
+header {
+color: #000000;
+background-color: green;
+background-image: url(img/bg.png);
+background-position: left top;
+background-size: 50%;
+}
   <!-- по умолчанию body блочный элемент, занимает 100% ширины родительского элемента html и имеет небольшой отступ margin по краям -->
   <body style="margin:0;">
 
