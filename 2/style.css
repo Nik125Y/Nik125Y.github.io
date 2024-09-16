@@ -7,9 +7,9 @@ background-size: 50%;
 }
 
 div.tab {
- max-width:700px; 
- background-color: red;
- margin: auto;
- margin-top:30px;
- padding:20px;
+font-size: 12pt;
+font-family: "Courier New", monotype;
+font-weight: bold;
+font-style: italic;
+line-height: 120%
 }
