@@ -23,12 +23,9 @@ margin-inline: 20px;
 margin-block: 20px;
 float: left;
 }
-div.hce { 
-  max-width:620px; 
-  background-color:#d5d0b0; 
-  margin: auto; 
-  margin-top:20px; 
-  padding:10px;
+div.hed { 
+  padding-top: 80px;
+  padding-left: 260px;
 }
 div.href {
   max-width:800px;
