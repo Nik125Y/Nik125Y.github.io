@@ -10,21 +10,23 @@ nav {
 clear: both;
   margin-left: 300px;
   margin-right: 100px;
-  padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 10px;
-background-color:#d5d0b0; 
+
 }
 #logo {
 width: 100px;
 height: 100px;
-margin: 7px 0 7px 7px;
+  margin-top: 0px;
 margin-inline: 20px;
 margin-block: 20px;
 float: left;
 }
 div.hed { 
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  height: 67px;
+  width: 900.4px;
   padding-left: 260px;
 }
 div.href {
