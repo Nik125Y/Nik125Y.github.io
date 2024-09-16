@@ -5,10 +5,7 @@ background-image: url(imageH.png);
 background-position: right;
 background-size: 100%;
 }
-footer {
-  color: black;
-background-color:blue; 
-}
+
 nav {
 clear: both;
   margin-left: 300px;
@@ -25,11 +22,19 @@ margin-inline: 20px;
 margin-block: 20px;
 float: left;
 }
+div.hcenter { 
+  max-width:620px; 
+  background-color:#d5d0b0; 
+  margin: auto; 
+  margin-top:20px; 
+  padding:10px;
+}
 div.href {
   max-width:800px;
   background-color:#ccc;
   margin: 0 auto; margin-top:20px; padding:10px;
           }
+
 div.center { 
   max-width:620px; 
   background-color:#d5d0b0; 
@@ -49,4 +54,8 @@ line-height: 120%
 }
 #nch td {
   background-color:#4b5517;
+}
+footer {
+  color: black;
+background-color:blue; 
 }
