@@ -12,7 +12,7 @@ nav {
   flex-grow: 1;
 
 }
-#menu ul {
+#menu {
   display: flex;
   flex-flow: row nowrap;
   margin: 0;
@@ -20,13 +20,11 @@ nav {
   font-size: 16px;
   line-height: 18px;
   list-style: none;
-}
-
-#menu li {
   color: #fff;
   background-color: #ff3d00;
   border-radius: 8px;
 }
+
 
 #logo {
 width: 100px;
