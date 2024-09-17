@@ -12,7 +12,7 @@ nav {
   flex-grow: 1;
 
 }
-div.menu {
+#menu li {
   display: flex;
   flex-flow: row nowrap;
   margin: 0;
@@ -21,9 +21,7 @@ div.menu {
   line-height: 18px;
   list-style: none;
   
-  color: #fff;
-  background-color: #ff3d00;
-  border-radius: 8px;
+  
 }
 
 
