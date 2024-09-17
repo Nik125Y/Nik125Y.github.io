@@ -55,11 +55,11 @@ font-style: italic;
 line-height: 120%
 }
 
-tbody tr:nth-child(odd) {
+tr:nth-child(odd) {
   background-color: antiquewhite;
 }
 
-tbody tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #d0c671;
 }
 div.navig {
