@@ -38,12 +38,7 @@ div.href {
   background-color:#ccc;
   margin: 0 auto; margin-top:20px; padding:10px;
 }
-div.cent {
-  max-width:620px;  
-  margin: auto; 
-  margin-top:20px; 
-  padding:10px;
-}
+
 div.centert { 
   max-width:620px; 
   background-color:#d5d0b0; 
