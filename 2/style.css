@@ -1,17 +1,20 @@
 header {
-color: black;
-background-color:grey; 
+display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
 background-image: url(imageH.png);
 background-position: right;
 background-size: 100%;
 }
 
-nav {
-clear: both;
-  margin-left: 300px;
-  margin-right: 100px;
-  padding-top: 10px;
-  padding-left: 10px;
+nav  {
+  flex-grow: 1;
+display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 
 }
 #logo {
@@ -20,6 +23,7 @@ height: 100px;
   margin-top: 0px;
 margin-inline: 20px;
 margin-block: 20px;
+  
 float: left;
 }
 div.hed { 
