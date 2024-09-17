@@ -22,7 +22,7 @@ nav {
   list-style: none;
 }
 
-#menu .active {
+#menu li {
   color: #fff;
   background-color: #ff3d00;
   border-radius: 8px;
