@@ -59,7 +59,8 @@ line-height: 120%
 #nch td {
   background-color:#4b5517;
 }
-div.navig {
+.navig a,
+.navig .active {
   margin-right: 60px;
   margin-left: 60px;
   color: black;
