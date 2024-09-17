@@ -10,8 +10,6 @@ background-size: 100%;
 nav {
   flex-grow: 1;
   background-color: #d7ca97;
-  border-radius: 14px;
-  margin-left: 10px;
 }
 #logo {
 width: 100px;
