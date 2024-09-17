@@ -55,17 +55,16 @@ font-style: italic;
 line-height: 120%
 }
 
-tr:nth-child(odd)  { 
-  background-color: lightcolor; 
-                   } 
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
 
-tr:nth-child(even) { 
-  background-color: darkcolor;
-}  
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
 div.navig {
   margin-right: 60px;
   margin-left: 60px;
-  color: black; text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
