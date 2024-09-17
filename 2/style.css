@@ -7,6 +7,13 @@ background-image: url(imageH.png);
 background-position: right;
 background-size: 100%;
 }
+.bg-ex-fixed{
+  background: url(fon.jpg); /* Путь к картинке */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Закрепляем изображение */
+}
 nav {
   background-color: #d7ca9763;
   width: 900px;
