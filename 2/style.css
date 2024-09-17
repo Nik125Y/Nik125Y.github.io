@@ -8,12 +8,11 @@ background-position: right;
 background-size: 100%;
 }
 nav {
-  flex-grow: 1;
+  
   background-color: #d7ca9763;
   margin-left: 10px;
   padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 53px;
   margin-bottom: 101px;
 }
 #logo {
