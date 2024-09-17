@@ -54,13 +54,14 @@ font-weight: bold;
 font-style: italic;
 line-height: 120%
 }
-#ch td {
-  background-color:#b6cc4d;
-}
-#nch td {
-  background-color:#4b5517;
-}
 
+tr:nth-child(odd)  { 
+  background-color: lightcolor; 
+                   } 
+
+tr:nth-child(even) { 
+  background-color: darkcolor;
+}  
 div.navig {
   margin-right: 60px;
   margin-left: 60px;
