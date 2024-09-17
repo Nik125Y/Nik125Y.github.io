@@ -12,9 +12,6 @@ nav {
   flex-grow: 1;
   background-color: #d7ca97;
   border-radius: 14px;
-
-}
-div.menu ul {
   display: flex;
   flex-flow: row nowrap;
   margin: 0;
@@ -22,9 +19,6 @@ div.menu ul {
   list-style: none;
 }
 
-.menu a {
-  padding: 8px 10px;
-}
 
 #logo {
 width: 100px;
