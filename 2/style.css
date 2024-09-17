@@ -56,11 +56,11 @@ line-height: 120%
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
+  background-color: antiquewhite;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #e495e4;
+  background-color: #d0c671;
 }
 div.navig {
   margin-right: 60px;
