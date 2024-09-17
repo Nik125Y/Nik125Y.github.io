@@ -8,12 +8,12 @@ background-position: right;
 background-size: 100%;
 }
 nav {
-  
   background-color: #d7ca9763;
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 53px;
   margin-bottom: 101px;
+  margin-right: auto;
 }
 #logo {
 width: 100px;
@@ -37,10 +37,14 @@ div.href {
   max-width:800px;
   background-color:#ccc;
   margin: 0 auto; margin-top:20px; padding:10px;
-  
 }
-
-div.center { 
+div.cent {
+  max-width:620px;  
+  margin: auto; 
+  margin-top:20px; 
+  padding:10px;
+}
+div.centert { 
   max-width:620px; 
   background-color:#d5d0b0; 
   margin: auto; 
