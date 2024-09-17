@@ -59,6 +59,14 @@ line-height: 120%
 #nch td {
   background-color:#4b5517;
 }
+#navig a {
+  margin-right: 60px;
+  margin-left: 60px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-decoration: none;
+}
 footer {
   color: black;
 background-color:#7474d1; 
