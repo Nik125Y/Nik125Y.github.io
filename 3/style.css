@@ -1,3 +1,38 @@
+#main-aside-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#main-aside-wrapper header, #main-aside-wrapper form, #main-aside-wrapper nav,
+#main-aside-wrapper ul, #main-aside-wrapper table{
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+#main-aside-wrapper header {
+  flex: 1;
+  order: 1;
+}
+#main-aside-wrapper nav {
+  flex: 1;
+  order: 1;
+}
+#main-aside-wrapper ul {
+  flex: 1;
+  order: 1;
+}
+#main-aside-wrapper table {
+  flex: 3;
+  order: 2;
+}
+#main-aside-wrapper form {
+  flex: 3;
+  order: 2;
+}
+@media screen and (min-width: 800px) {
+  #main-aside-wrapper {
+    flex-direction: column;
+  }
+}
 header {
 display: flex;
   flex-flow: row nowrap;
@@ -7,13 +42,7 @@ background-image: url(imageH.png);
 background-position: right;
 background-size: 100%;
 }
-#bg-ex-fixed{
-  background: url(fon2.png); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
-}
+
 nav {
   background-color: #d7ca9763;
   width: 900px;
@@ -62,13 +91,7 @@ font-style: italic;
 line-height: 120%
 }
 
-tr:nth-child(odd) {
-  background-color: antiquewhite;
-}
 
-tr:nth-child(even) {
-  background-color: #d0c671;
-}
 div.navig {
   margin-right: 60px;
   margin-left: 60px;
@@ -90,4 +113,19 @@ background-color:#7474d1;
   border-bottom-style: solid;
   border-right-width: 3px;
   border-right-style: solid;
+}
+
+tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+tr:nth-child(even) {
+  background-color: #d0c671;
+}
+#bg-ex-fixed{
+  background: url(fon2.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
 }
