@@ -14,19 +14,19 @@
 }
 #main-aside-wrapper nav {
   flex: 1;
-  order: 1;
+  order: 2;
 }
 #main-aside-wrapper linki {
   flex: 1;
-  order: 1;
+  order: 4;
 }
 #main-aside-wrapper tablica {
   flex: 3;
-  order: 2;
+  order: 3;
 }
 #main-aside-wrapper forma {
   flex: 3;
-  order: 2;
+  order: 5;
 }
 @media screen and (min-width: 800px) {
   #main-aside-wrapper {
