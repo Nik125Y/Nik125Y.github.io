@@ -16,15 +16,15 @@
   flex: 1;
   order: 1;
 }
-#main-aside-wrapper ul {
+#main-aside-wrapper linki {
   flex: 1;
   order: 1;
 }
-#main-aside-wrapper table {
+#main-aside-wrapper tablica {
   flex: 3;
   order: 2;
 }
-#main-aside-wrapper form {
+#main-aside-wrapper forma {
   flex: 3;
   order: 2;
 }
