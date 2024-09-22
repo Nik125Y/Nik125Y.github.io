@@ -21,6 +21,9 @@
   background-position: right;
   background-size: 100%;
 }
+#main-aside-wrapper width {
+  width: 60%
+}
 #main-aside-wrapper nav {
   flex: 1;
   order: 2;
@@ -64,7 +67,9 @@
   display: flex;
   flex-direction: column;
 }
- 
+ #main-aside-wrapper width {
+  width: 110%
+}
 #main-aside-wrapper forma, #main-aside-wrapper nav,
 #main-aside-wrapper linki, #main-aside-wrapper tablica{
   justify-content: center;
