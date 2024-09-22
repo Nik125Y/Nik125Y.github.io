@@ -128,7 +128,7 @@ div.hed {
   background-color: #d7ca9763;
   border-radius: 14px;
   display: flex;
-  margin: auto;
+  margin-block: auto;
 }
 
 
