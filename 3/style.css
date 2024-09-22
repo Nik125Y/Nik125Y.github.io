@@ -7,6 +7,8 @@
   background-color: #ddd;
   margin: 10px;
   padding: 10px;
+  justify-content: center;
+  display: flex;
 }
 #main-aside-wrapper header {
   flex: 1;
@@ -20,8 +22,6 @@
   background-size: 100%;
 }
 #main-aside-wrapper nav {
-  justify-content: space-between;
-  display: flex;
   flex: 1;
   order: 2;
   text-transform: uppercase;
@@ -30,6 +30,8 @@
 #main-aside-wrapper linki {
   flex: 1;
   order: 3;
+  justify-content: center;
+  display: flex;
 }
 #main-aside-wrapper tablica {
   flex: 3;
@@ -65,6 +67,8 @@
  
 #main-aside-wrapper forma, #main-aside-wrapper nav,
 #main-aside-wrapper linki, #main-aside-wrapper tablica{
+  justify-content: center;
+  display: flex;
   background-color: #ddd;
   margin: 10px;
   padding: 10px;
