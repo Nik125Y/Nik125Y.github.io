@@ -57,7 +57,7 @@
   border-right-width: 3px;
   border-right-style: solid;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 460px) {
   #main-aside-wrapper {
     flex-direction: column;
     #main-aside-wrapper linki {
