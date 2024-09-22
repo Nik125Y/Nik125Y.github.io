@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 #main-aside-wrapper forma, #main-aside-wrapper nav,
-#main-aside-wrapper2 section, #main-aside-wrapper tablica{
+#main-aside-wrapper section, #main-aside-wrapper tablica{
   justify-content: center;
   display: flex;
   background-color: #ddd;
@@ -24,11 +24,9 @@
   text-transform: uppercase;
   letter-spacing: .2em;
   }
-#main-aside-wrapper2 section {
+#main-aside-wrapper section {
   flex: 1;
   order: 4;
-  display: flex;
-  flex-direction: column;
 }
 #main-aside-wrapper tablica {
   flex: 3;
@@ -67,7 +65,7 @@
     background-position: right;
     background-size: 100%;
   }
-  #main-aside-wrapper2 section {
+  #main-aside-wrapper section {
     flex: 1;
     order: 3;
     justify-content: center;
