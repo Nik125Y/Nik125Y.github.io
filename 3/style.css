@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 #main-aside-wrapper section, #main-aside-wrapper nav,
-#main-aside-wrapper main, #main-aside-wrapper aside {
+#main-aside-wrapper main, #main-aside-wrapper table {
   justify-content: center;
   display: flex;
   background-color: #ddd;
@@ -28,7 +28,7 @@
   flex: 1;
   order: 4;
 }
-#main-aside-wrapper aside {
+#main-aside-wrapper table {
   flex: 3;
   order: 3;
   font-size: 12pt;
@@ -71,7 +71,7 @@
     justify-content: center;
     display: flex;
   }
-  #main-aside-wrapper aside {
+  #main-aside-wrapper table {
     flex: 3;
     order: 4;
     font-size: 12pt;
