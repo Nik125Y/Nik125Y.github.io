@@ -78,7 +78,7 @@
   background-size: auto;
 }
 #main-aside-wrapper nav {
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
   flex: 1;
   order: 2;
