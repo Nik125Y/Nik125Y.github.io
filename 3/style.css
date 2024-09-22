@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 #main-aside-wrapper forma, #main-aside-wrapper nav,
-#main-aside-wrapper linki, #main-aside-wrapper tablica{
+#main-aside-wrapper main, #main-aside-wrapper aside {
   justify-content: center;
   display: flex;
   background-color: #ddd;
@@ -24,11 +24,11 @@
   text-transform: uppercase;
   letter-spacing: .2em;
   }
-#main-aside-wrapper linki {
+#main-aside-wrapper main {
   flex: 1;
   order: 4;
 }
-#main-aside-wrapper tablica {
+#main-aside-wrapper aside {
   flex: 3;
   order: 3;
   font-size: 12pt;
@@ -65,13 +65,13 @@
     background-position: right;
     background-size: 100%;
   }
-  #main-aside-wrapper linki {
+  #main-aside-wrapper main {
     flex: 1;
     order: 3;
     justify-content: center;
     display: flex;
   }
-  #main-aside-wrapper tablica {
+  #main-aside-wrapper aside {
     flex: 3;
     order: 4;
     font-size: 12pt;
