@@ -20,6 +20,7 @@
 #main-aside-wrapper nav {
   justify-content: space-around;
   display: flex;
+  order: 2;
   text-transform: uppercase;
   letter-spacing: .2em;
   }
