@@ -55,6 +55,9 @@
   border-inline-width: 3px;
   border-inline-style: solid;
 }
+  #width {
+    width: 60%;
+  }
 
 @media screen and (max-width: 500px) {
   #main-aside-wrapper {
