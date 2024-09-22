@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 #main-aside-wrapper forma, #main-aside-wrapper nav,
-#main-aside-wrapper main, #main-aside-wrapper tablica{
+#main-aside-wrapper link, #main-aside-wrapper tablica{
   justify-content: center;
   display: flex;
   background-color: #ddd;
@@ -24,7 +24,7 @@
   text-transform: uppercase;
   letter-spacing: .2em;
   }
-#main-aside-wrapper main {
+#main-aside-wrapper link {
   flex: 1;
   order: 4;
 }
@@ -65,7 +65,7 @@
     background-position: right;
     background-size: 100%;
   }
-  #main-aside-wrapper main {
+  #main-aside-wrapper link {
     flex: 1;
     order: 3;
     justify-content: center;
