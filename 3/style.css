@@ -51,6 +51,14 @@
 @media screen and (min-width: 800px) {
   #main-aside-wrapper {
     flex-direction: column;
+    #main-aside-wrapper linki {
+  flex: 1;
+  order: 3;
+}
+#main-aside-wrapper tablica {
+  flex: 3;
+  order: 4;
+}
   }
 }
 header {
