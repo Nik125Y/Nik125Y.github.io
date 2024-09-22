@@ -4,68 +4,6 @@
 }
 #main-aside-wrapper forma, #main-aside-wrapper nav,
 #main-aside-wrapper linki, #main-aside-wrapper tablica{
-  background-color: #ddd;
-  margin: 10px;
-  padding: 10px;
-  justify-content: center;
-  display: flex;
-}
-#main-aside-wrapper header {
-  flex: 1;
-  order: 1;
-  justify-content: space-between;
-  display: flex;
-  margin: 10px;
-  padding: 10px;
-  background-image: url(imageH.png);
-  background-position: right;
-  background-size: 100%;
-}
-#main-aside-wrapper nav {
-  flex: 1;
-  order: 2;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
-#main-aside-wrapper linki {
-  flex: 1;
-  order: 3;
-  justify-content: center;
-  display: flex;
-}
-#main-aside-wrapper tablica {
-  flex: 3;
-  order: 4;
-  font-size: 12pt;
-  font-family: "Courier New", monotype;
-  font-weight: bold;
-  font-style: italic;
-  line-height: 120%
-}
-#main-aside-wrapper forma {
-  flex: 3;
-  order: 5;
-}
-#main-aside-wrapper footer{
-  flex: 3;
-  order: 6;
-  background-color: #7474d1;
-  padding-left: 70px;
-  padding-block: 10px;
-  border-block-style: solid;
-  border-block-width: 3px;
-  border-inline-width: 3px;
-  border-inline-style: solid;
-}
-
-
-@media screen and (max-width: 500px) {
-  #main-aside-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-#main-aside-wrapper forma, #main-aside-wrapper nav,
-#main-aside-wrapper linki, #main-aside-wrapper tablica{
   justify-content: center;
   display: flex;
   background-color: #ddd;
@@ -113,7 +51,68 @@
   border-inline-width: 3px;
   border-inline-style: solid;
 }
-  
+ 
+@media screen and (min-width: 800px) {
+   #main-aside-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-aside-wrapper forma, #main-aside-wrapper nav,
+  #main-aside-wrapper linki, #main-aside-wrapper tablica{
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  #main-aside-wrapper header {
+    flex: 1;
+    order: 1;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(imageH.png);
+    background-position: right;
+    background-size: 100%;
+  }
+  #main-aside-wrapper nav {
+    flex: 1;
+    order: 2;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+  #main-aside-wrapper linki {
+    flex: 1;
+    order: 3;
+    justify-content: center;
+    display: flex;
+  }
+  #main-aside-wrapper tablica {
+    flex: 3;
+    order: 4;
+    font-size: 12pt;
+    font-family: "Courier New", monotype;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 120%
+  }
+  #main-aside-wrapper forma {
+    flex: 3;
+    order: 5;
+  }
+  #main-aside-wrapper footer{
+    flex: 3;
+    order: 6;
+    background-color: #7474d1;
+    padding-left: 70px;
+    padding-block: 10px;
+    border-block-style: solid;
+    border-block-width: 3px;
+    border-inline-width: 3px;
+    border-inline-style: solid;
+  }
+
 }
 
 #logo {
