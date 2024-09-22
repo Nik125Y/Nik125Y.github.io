@@ -1,8 +1,5 @@
 header {
-display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
-  align-items: center;
+
 background-image: url(imageH.png);
 background-position: right;
 background-size: 100%;
