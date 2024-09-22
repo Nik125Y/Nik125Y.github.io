@@ -11,6 +11,8 @@
 #main-aside-wrapper header {
   flex: 1;
   order: 1;
+  justify-content: space-between;
+  display: flex;
   margin: 10px;
   padding: 10px;
   background-image: url(imageH.png);
@@ -19,8 +21,11 @@
 }
 #main-aside-wrapper nav {
   justify-content: space-between;
+  display: flex;
   flex: 1;
   order: 2;
+  text-transform: uppercase;
+  letter-spacing: .2em;
 }
 #main-aside-wrapper linki {
   flex: 1;
@@ -42,33 +47,70 @@
 #main-aside-wrapper footer{
   flex: 3;
   order: 6;
-  color: black;
-  background-color:#7474d1; 
+  background-color: #7474d1;
   padding-left: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  border-top-style: solid;
-  border-top-width: 3px;
-  border-left-width: 3px;
-  border-left-style: solid;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-right-width: 3px;
-  border-right-style: solid;
+  padding-block: 10px;
+  border-block-style: solid;
+  border-block-width: 3px;
+  border-inline-width: 3px;
+  border-inline-style: solid;
 }
+
 @media screen and (min-width: 460px) {
   #main-aside-wrapper {
-    flex-direction: column;
-    #main-aside-wrapper linki {
+  display: flex;
+  flex-direction: column;
+}
+#main-aside-wrapper forma, #main-aside-wrapper nav,
+#main-aside-wrapper linki, #main-aside-wrapper tablica{
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+#main-aside-wrapper header {
+  flex: 1;
+  order: 1;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(imageH.png);
+  background-position: right;
+  background-size: 100%;
+}
+#main-aside-wrapper nav {
+  justify-content: space-between;
+  display: flex;
+  flex: 1;
+  order: 2;
+}
+#main-aside-wrapper linki {
   flex: 1;
   order: 4;
 }
 #main-aside-wrapper tablica {
   flex: 3;
   order: 3;
+  font-size: 12pt;
+  font-family: "Courier New", monotype;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 120%
 }
-  }
+#main-aside-wrapper forma {
+  flex: 3;
+  order: 5;
+}
+#main-aside-wrapper footer{
+  flex: 3;
+  order: 6;
+  background-color: #7474d1;
+  padding-left: 70px;
+  padding-block: 10px;
+  border-block-style: solid;
+  border-block-width: 3px;
+  border-inline-width: 3px;
+  border-inline-style: solid;
+}
+  
 }
 
 #logo {
@@ -80,20 +122,13 @@ margin-block: 20px;
 float: left;
 }
 div.hed { 
-  margin-top: 55px;
   width: 400px;
   height: 50px;
   font-size: 20px;
-  line-height: 0px;
   background-color: #d7ca9763;
   border-radius: 14px;
 }
 
-
-div.navig {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
 
 tr:nth-child(odd) {
   background-color: antiquewhite;
