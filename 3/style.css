@@ -13,6 +13,7 @@
 #main-aside-wrapper header {
   flex: 1;
   order: 1;
+  display: flex;
   background-image: url(imageH.png);
   background-position: center;
   background-size: auto;
@@ -63,7 +64,7 @@
     padding: 10px;
     background-image: url(imageH.png);
     background-position: right;
-    background-size: 100%;
+    background-size: auto;
   }
   #main-aside-wrapper main {
     flex: 1;
