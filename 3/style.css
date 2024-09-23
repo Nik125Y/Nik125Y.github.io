@@ -80,7 +80,12 @@
     font-style: italic;
     line-height: 120%
   }
-
+  .grid {
+ display: grid;
+ grid: 1fr 25% 30px / 40% 1fr;
+ height: 200px;
+ background-color: aliceblue;
+}
 }
 
 #logo {
