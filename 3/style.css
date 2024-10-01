@@ -14,7 +14,7 @@
   flex: 1;
   order: 1;
   display: flex;
-  background-image: url(imageH.png);
+  background-image: url(https://nik125y.github.io/foto/imageH.png);
   background-position: center;
   background-size: auto;
 }
@@ -116,7 +116,7 @@ tr:nth-child(even) {
   background-color: #d0c671;
 }
 #bg-ex-fixed{
-  background: url(fon2.png); 
+  background: url(https://nik125y.github.io/foto/fon2.png); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
