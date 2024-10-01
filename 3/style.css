@@ -13,7 +13,7 @@
 #main-aside-wrapper header {
   flex: 1;
   order: 1;
-  display: flex;
+  display: flex; 
   background-image: url(https://nik125y.github.io/foto/imageH.png);
   background-position: center;
   background-size: auto;
