@@ -1,12 +1,12 @@
 header {
   width: 100%;
   height: 193px;
-  background-image: url(imageH.png);
+  background-image: url(https://nik125y.github.io/foto/imageH.png);
   background-position: right;
   background-size: 100%;
 }
 #bg-ex-fixed{
-  background: url(fon2.png); 
+  background: url(https://nik125y.github.io/foto/fon2.png); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,7 +29,6 @@ div.hed {
   width: 400px;
   height: 50px;
   font-size: 20px;
-  line-height: 0px;
   background-color: #d7ca9763;
   border-radius: 14px;
 }
