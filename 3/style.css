@@ -26,7 +26,7 @@
   letter-spacing: .2em;
   }
 #main-aside-wrapper main {
-  flex: 1;
+  flex: 2;
   order: 4;
 }
 #main-aside-wrapper aside {
