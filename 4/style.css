@@ -5,10 +5,10 @@ body {
   font-size: 12pt;
   padding: 10px;
 }
-#main-aside-wrapper {
-  /*display: flex;
-  flex-direction: column;*/
-}
+/*#main-aside-wrapper {
+  display: flex;
+  flex-direction: column;
+}*/
 #main-aside-wrapper section, #main-aside-wrapper nav,
 #main-aside-wrapper main, #main-aside-wrapper aside {
   /*justify-content: center;
@@ -18,9 +18,9 @@ body {
   padding: 10px*/
 }
 #main-aside-wrapper header {
-  flex: 1;
+  /*flex: 1;
   order: 1;
-  display: flex;
+  display: flex;*/
   background-image: url(https://nik125y.github.io/foto/imageH.png);
   background-position: center;
   background-size: auto;
@@ -36,7 +36,7 @@ body {
   flex: 1;
   order: 4;
 }
-#main-aside-wrapper aside {
+/*#main-aside-wrapper aside {
   flex: 3;
   order: 3;
   font-size: 12pt;
@@ -48,7 +48,7 @@ body {
 #main-aside-wrapper section {
   flex: 3;
   order: 5;
-}
+}*/
 #main-aside-wrapper footer {
   flex: 3;
   order: 6;
@@ -61,7 +61,7 @@ body {
   border-inline-style: solid;
 }
  
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
   #main-aside-wrapper header {
     flex: 1;
     order: 1;
@@ -74,19 +74,19 @@ body {
     background-size: auto;
   }
   #main-aside-wrapper main {
-    /*flex: 1;*/
+    flex: 1;
     order: 3;
-    /*justify-content: center;
-    display: flex;*/
+    justify-content: center;
+    display: flex;
   }
   #main-aside-wrapper aside {
     order: 4;
     flex: 3;
-    /*font-size: 12pt;
+    font-size: 12pt;
     font-family: "Courier New", monotype;
     font-weight: bold;
     font-style: italic;
-    line-height: 120%*/
+    line-height: 120%
   }
   .grid {
  display: grid;
@@ -95,7 +95,7 @@ body {
  background-color: aliceblue;
 }
 }
-
+*/
 #logo {
 width: 100px;
 height: 100px;
