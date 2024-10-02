@@ -74,19 +74,19 @@ body {
     background-size: auto;
   }
   #main-aside-wrapper main {
-    flex: 1;
+    /*flex: 1;*/
     order: 3;
-    justify-content: center;
-    display: flex;
+    /*justify-content: center;
+    display: flex;*/
   }
   #main-aside-wrapper aside {
-    flex: 3;
     order: 4;
-    font-size: 12pt;
+    flex: 3;
+    /*font-size: 12pt;
     font-family: "Courier New", monotype;
     font-weight: bold;
     font-style: italic;
-    line-height: 120%
+    line-height: 120%*/
   }
   .grid {
  display: grid;
@@ -99,7 +99,6 @@ body {
 #logo {
 width: 100px;
 height: 100px;
-  margin-top: 0px;
 margin-inline: 20px;
 margin-block: 20px;
 float: left;
