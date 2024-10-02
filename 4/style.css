@@ -20,10 +20,10 @@ body {
   letter-spacing: .2em;
   }
 #main-aside-wrapper main {
-  order: 4;
+  order: 1;
 }
 #main-aside-wrapper aside {
-  order: 3;
+  order: 0;
 }
 #main-aside-wrapper footer {
   background-color: #7474d1;
@@ -36,10 +36,10 @@ body {
 }
 @media screen and (min-width: 800px) {
 #main-aside-wrapper main {
-  order: 3;
+  order: 0;
 }
 #main-aside-wrapper aside {
-  order: 4;
+  order: 1;
 }
 }
 #logo {
