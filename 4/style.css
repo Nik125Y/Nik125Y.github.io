@@ -6,16 +6,16 @@ body {
   padding: 10px;
 }
 #main-aside-wrapper {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
 }
 #main-aside-wrapper section, #main-aside-wrapper nav,
 #main-aside-wrapper main, #main-aside-wrapper aside {
-  justify-content: center;
-  display: flex;
+  /*justify-content: center;
+  display: flex;*/
   background-color: #ddd;
-  margin: 10px; 
-  padding: 10px;
+  /*margin: 10px; 
+  padding: 10px*/
 }
 #main-aside-wrapper header {
   flex: 1;
