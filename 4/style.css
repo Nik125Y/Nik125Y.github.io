@@ -19,12 +19,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .2em;
   }
-#main-aside-wrapper main {
-  order: 1;
-}
-#main-aside-wrapper aside {
-  order: 0;
-}
+
 #main-aside-wrapper footer {
   background-color: #7474d1;
   padding-left: 70px;
@@ -34,14 +29,7 @@ body {
   border-inline-width: 3px;
   border-inline-style: solid;
 }
-@media screen and (min-width: 800px) {
-#main-aside-wrapper main {
-  order: 0;
-}
-#main-aside-wrapper aside {
-  order: 1;
-}
-}
+
 #logo {
 width: 100px;
 height: 100px;
