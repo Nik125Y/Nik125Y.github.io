@@ -1,3 +1,10 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 12pt;
+  padding: 10px;
+}
 #centre {
   margin: auto;
   background-color: pink;
