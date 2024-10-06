@@ -6,6 +6,7 @@ function click1() {
   if (s[0].value == "v2") r.innerHTML = f1[0].value * 2;
   if (s[0].value == "v3") r.innerHTML = f1[0].value * 1100;
   if (s[0].value == "v4") r.innerHTML = f1[0].value * 210;
-  //console.log(s[0].value);
+  if (r[0].value==null) r.innerHTML ="не корректное значение";
+  console.log(r[0].value);
   return false;
 }
