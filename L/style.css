@@ -30,7 +30,6 @@ float: left;
 }
 #main-aside-wrapper nav {
   background-color: #FF69B4;
-  width: 600px;
 }
 
 tr:nth-child(odd) {
@@ -65,19 +64,3 @@ tr:nth-child(even) {
   background-position: center;
   background-attachment: fixed; 
 }
-
-/*div.form {
-  margin: auto;
-  background-color:#9ACD32; 
-  margin-top: 20px;
-  width: 650px;
-  border-color: white;
-  border-top-style: groove;
-  border-top-width: 3px;
-  border-left-width: 3px;
-  border-left-style: groove;
-  border-bottom-width: 3px;
-  border-bottom-style: groove;
-  border-right-width: 3px;
-  border-right-style: groove;
-}*/
