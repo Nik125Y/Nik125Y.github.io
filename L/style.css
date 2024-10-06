@@ -15,7 +15,19 @@ width: 100px;
 height: 100px;
 float: left;
 }
-
+#main-aside-wrapper section{
+  margin: auto;
+  background-color:#9ACD32; 
+  border-color: white;
+  border-top-style: groove;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-left-style: groove;
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+  border-right-width: 3px;
+  border-right-style: groove;
+}
 #main-aside-wrapper nav {
   background-color: #FF69B4;
   width: 600px;
