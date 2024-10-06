@@ -3,7 +3,9 @@
 function click1() {
   let f1 = document.getElementsByName("field1");
   let r = document.getElementById("result");
-  r.innerHTML = f1[0].value * 6;
+  let sr;
+  if (f1=="6") r.innerHTML = f1[0].value * 6;
+  if (f1=="5") r.innerHTML = f1[0].value * 5;
   let s = document.getElementsByName("select1");
   console.log(s[0].value);
   return false;
