@@ -1,5 +1,3 @@
-  <script>
-
 function click1() {
   let f1 = document.getElementsByName("field1");
   let r = document.getElementById("result");
@@ -11,4 +9,3 @@ function click1() {
   //console.log(s[0].value);
   return false;
 }
-</script>  
