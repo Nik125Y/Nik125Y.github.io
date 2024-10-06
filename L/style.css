@@ -1,0 +1,84 @@
+#centre {
+  margin: auto;
+  background-color: pink;
+  padding: 7px;
+}
+
+header {
+  color: black;
+  background-color:#FFB6C1;
+  margin-bottom: 10px;
+  padding-bottom: 45px;
+}
+
+#logo {
+width: 100px;
+height: 100px;
+float: left;
+margin-left: 10px;
+}
+
+nav {
+  background-color: #FF69B4;
+  width: 600px;
+  margin-left: auto;
+}
+
+tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+tr:nth-child(even) {
+  background-color: #FF69B4;
+}
+
+div.href {
+  max-width: 800px;
+  background-color: #FFB6C1;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  color: black;
+  background-color:#6495ED; 
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-top-style: #87CEEB;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-left-style: #87CEEB;
+  border-bottom-width: 3px;
+  border-bottom-style: #87CEEB;
+  border-right-width: 3px;
+  border-right-style: #87CEEB;
+}
+
+#bg-ex-fixed{
+  background: url(winxwp038.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+div.form {
+  margin: auto;
+  background-color:#9ACD32; 
+  margin-top: 20px;
+  width: 650px;
+  border-color: white;
+  border-top-style: groove;
+  border-top-width: 3px;
+  border-left-width: 3px;
+  border-left-style: groove;
+  border-bottom-width: 3px;
+  border-bottom-style: groove;
+  border-right-width: 3px;
+  border-right-style: groove;
+}
