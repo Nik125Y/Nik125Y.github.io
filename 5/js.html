@@ -3,22 +3,20 @@
 function click1() {
   let f1 = document.getElementsByName("field1");
   let r = document.getElementById("result");
-  let sr;
-  if (f1[0].value==6) r.innerHTML = f1[0].value * 6;
-  if (f1[0].value=="5") r.innerHTML = f1[0].value * 5;
   let s = document.getElementsByName("select1");
-  console.log(s[0].value);
+  if (s[0].value == "v1") r.innerHTML = f1[0].value * 50;
+  if (s[0].value == "v2") r.innerHTML = f1[0].value * 20;
+  //console.log(s[0].value);
   return false;
 }
-
 </script>  
 
 <div id="result"></div>
 <form>
   <input name="field1" type="text">
   <select name="select1">
-    <option value="v1">Вариант 1</option>
-    <option value="v2">Вариант 2</option>
+    <option value="v1">Доски</option>
+    <option value="v2">Гвозди</option>
   </select>
   <button id="button1" onclick="return click1();">OK</button>
   
