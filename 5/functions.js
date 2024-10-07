@@ -1,4 +1,4 @@
-function click1() {
+function click1(event) {
   let f1 = document.getElementsByName("field1");
   let r = document.getElementById("result");
   let s = document.getElementsByName("select1");
@@ -6,7 +6,14 @@ function click1() {
   if (s[0].value == "v2") r.innerHTML = f1[0].value * 2;
   if (s[0].value == "v3") r.innerHTML = f1[0].value * 1100;
   if (s[0].value == "v4") r.innerHTML = f1[0].value * 210;
-  if (r[0].value==null) r.innerHTML ="не корректное значение";
-  console.log(r[0].value);
+  /*if (r[0].value==null) r.innerHTML ="не корректное значение";
+  console.log(r[0].value);*/
+  event.preventDefault();
   return false;
 }
+
+window.addEventListener('DOMContentLoaded', function (event) {
+  
+  let b = document.getElementById("button1");
+  b.addEventListener("click", click1);
+});
