@@ -7,12 +7,12 @@ function click1(event) {
   if (s[0].value == "v3") r.innerHTML = f1[0].value * 1100;
   if (s[0].value == "v4") r.innerHTML = f1[0].value * 210;
   
-  let m = r.match(/[0123456789]/gi);
-  if (m === null)  r.innerHTML ="некорректное значение";
+  /*let m = r.match(/[0123456789]/gi);
+  if (m === null)  r.innerHTML ="некорректное значение";*/
   
-  event.preventDefault();
-  alert(r.innerHTML);
+  
   return false;
+  event.preventDefault();
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
