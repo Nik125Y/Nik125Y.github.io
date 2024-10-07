@@ -7,9 +7,8 @@ function click1(event) {
   if (s[0].value == "v3") r.innerHTML = f1[0].value * 1100;
   if (s[0].value == "v4") r.innerHTML = f1[0].value * 210;
   
-  /*let m = r.match(/[0123456789]/gi);
-  if (m === null)  r.innerHTML ="некорректное значение";*/
-  
+  let m = f1[0].value.match(/^\d+$/);
+  if (m === null) r.innerHTML ="некорректное значение";*
   
   return false;
   event.preventDefault();
