@@ -1,38 +1,52 @@
 function click1(event) {
-    let s = document.getElementsByName("select1");
+    let s = document.getElementById("radiobutton");
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
-    if (s[0].value === "v1") {
+    if (s[0].value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
-    if (s[0].value === "v2") {
+    if (s[0].value === "r2") {
         r.innerHTML = f1[0].value * 1;
     }
-    if (s[0].value === "v3") {
+    if (s[0].value === "r3") {
         r.innerHTML = f1[0].value * 1100;
     }
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
-    //event.preventDefault();
     return false;
 }
 window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button1");
     b.addEventListener("click", click1);
 });
+
 window.addEventListener('DOMContentLoaded', function (event) {
-  let s = document.getElementsByName("select1");
+  let s = document.getElementById("radiobutton");
   s[0].addEventListener("change", function(event) {
-    let select = event.target;
-    let radios = document.getElementById("radiobutton");
-    console.log(select.value);
-    if (select.value == "v3") {
-      radios.style.display = "none";
+    let radios = event.target;
+    let select = document.getElementsByName("select1");
+    let chek = document.getElementById("check");
+    if (radios.value === "r1") {
+      select.style.display = "none";
+      chek.style.display = "none";
     }
     else {
-      radios.style.display = "block";
+      select.style.display = "block";
+      chek.style.display = "block";
+    }
+    if (select.value == "r2") {
+      chek.style.display = "none";
+    }
+    else {
+      chek.style.display = "block";
+    }
+      if (select.value == "r3") {
+      select.style.display = "none";
+    }
+    else {
+      select.style.display = "block";
     }
   });
   
