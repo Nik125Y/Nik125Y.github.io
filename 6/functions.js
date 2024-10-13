@@ -3,10 +3,10 @@ function click1(event) {
     let r = document.getElementById("result");
     let s = document.getElementsByName("select1");
     
-    s[0].addEventListener("change", function(event) {
+    s[0].addEventListener("change", function() {
     let select = event.target;
-    let radios = document.getElementsByClassName("radiobutton");
-    if (select.value == "v3") {
+    let radios =  document.getElementById("radiobutton");
+    if (select.value === "v3") {
       radios.style.display = "none";
     }
     else {
@@ -18,7 +18,8 @@ function click1(event) {
     
     r1.forEach(function(radio) {
     radio.addEventListener("change", function() {
-        click1();
+        let r = event.target;
+        //click1();
     });   
     });
         
