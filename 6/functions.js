@@ -3,13 +3,13 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
-    if (s[0].value === "r1") {
+    if (s.value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
-    if (s[0].value === "r2") {
+    if (s.value === "r2") {
         r.innerHTML = f1[0].value * 1;
     }
-    if (s[0].value === "r3") {
+    if (s.value === "r3") {
         r.innerHTML = f1[0].value * 1100;
     }
     if (m.match(/^\d+$/) === null) {
