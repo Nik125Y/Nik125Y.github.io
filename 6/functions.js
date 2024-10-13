@@ -1,9 +1,9 @@
 window.addEventListener('DOMContentLoaded', function () {
-    function click1(event) {
+    let s = document.getElementsByName("select1");
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
-    let s = document.getElementsByName("select1");
-        
+    
+    function click1(event) {
     let m = f1[0].value;
     if (s[0].value === "v1") {
         r.innerHTML = f1[0].value * 23200;
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function () {
 }
 
 
-    let s = document.getElementsByName("select1");
+    
     s[0].addEventListener("change", function() {
     let select = event.target;
     let radios = document.getElementById("radiobutton");
@@ -34,12 +34,10 @@ window.addEventListener('DOMContentLoaded', function () {
       radios.style.display = "block";
     }
   });
-  
-  let rad = document.querySelectorAll(".myradios input[type=radio]");
+    
+  let rad = document.getElementsByName("radiobutton");
   rad.forEach(function(radio) {
     radio.addEventListener("change", function() {
-      let rad = event.target;
-      console.log(rad.value);
         click1();
     });    
   });
