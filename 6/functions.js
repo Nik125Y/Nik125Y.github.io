@@ -17,13 +17,11 @@ window.addEventListener('DOMContentLoaded', function () {
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
-    //event.preventDefault();
-    //return false;
 }
 
 
     
-    s[0].addEventListener("change", function() {
+  /*  s[0].addEventListener("change", function() {
     let select = event.target;
     let radios = document.getElementById("radiobutton");
     console.log(select.value);            //remove
@@ -33,8 +31,10 @@ window.addEventListener('DOMContentLoaded', function () {
     else {
       radios.style.display = "block";
     }
-  });
-    
+  });*/
+    amount.addEventListener("input", function () {
+        click1();
+    });
   let rad = document.getElementsByName("radiobutton");
   rad.forEach(function(radio) {
     radio.addEventListener("change", function() {
