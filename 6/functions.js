@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function () {
 }
 
 
-
+    let s = document.getElementsByName("select1");
     s[0].addEventListener("change", function() {
     let select = event.target;
     let radios = document.getElementById("radiobutton");
@@ -40,6 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
     radio.addEventListener("change", function() {
       let rad = event.target;
       console.log(rad.value);
+        click1();
     });    
   });
   
