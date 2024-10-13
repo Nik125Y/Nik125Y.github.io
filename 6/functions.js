@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', function () {
       radios.style.display = "block";
     }
   });*/
-   /* amount.addEventListener("input", function () {
+   f1.addEventListener("input", function () {
         click1();
     });
   let rad = document.getElementsByName("radiobutton");
@@ -40,6 +40,6 @@ window.addEventListener('DOMContentLoaded', function () {
     radio.addEventListener("change", function() {
         click1();
     });    
-  });*/
+  });
   
 });
