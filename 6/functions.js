@@ -17,8 +17,8 @@ window.addEventListener('DOMContentLoaded', function () {
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
-    event.preventDefault();
-    return false;
+    //event.preventDefault();
+    //return false;
 }
 
 
@@ -43,8 +43,3 @@ window.addEventListener('DOMContentLoaded', function () {
   });
   
 });
-
-/*window.addEventListener("DOMContentLoaded", function () {
-    let b = document.getElementById("button1");
-    b.addEventListener("click", click1);
-});*/
