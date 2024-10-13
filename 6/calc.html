@@ -11,22 +11,24 @@
         <h1 style="margin-left: auto; margin-right: auto;"> Задание 6 </h1>
           <form>
             <input name="field1" type="text">
-            <select name="select1">
-              <option value="v1">Шкаф</option>
-              <option value="v2">что-то</option>
-              <option value="v3">Доски</option>
-            </select>
-            <button id="button1" onclick="return click1();">OK</button>
-            
-            <div class="radiobutton" id="radiobutton">
+              <div class="radiobutton" id="radiobutton">
                 <label><input type="radio" name="radiobutton" value="r1">тёмный дуб</label>
                 <label><input type="radio" name="radiobutton" value="r2">белая берёза</label>
                 <label><input type="radio" name="radiobutton" value="r3">тисс</label>
-          </div>  
+          </div>  <button id="button1" onclick="return click1();">OK</button>
+          </br>
+            <select name="select1">
+              <option value="v1">Шкаф</option>
+              <option value="v2">tre</option>
+              <option value="v3">Доски</option>
+            </select>
+            
+            
           <div class="check" id="check">
               <label><input type="checkbox" checked="checked" name="check-1">Доставка</label>
               <label><input type="checkbox" checked="checked" name="check-2">Забрать со склада</label>
           </div>
+              
               <h3>Стоимость: </h3><div id="result"></div>
           </form>
     </body>
