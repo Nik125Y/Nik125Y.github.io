@@ -3,7 +3,7 @@ function click1(event) {
     let r = document.getElementById("result");
     let s = document.getElementsByName("select1");
     
-    s[0].addEventListener("change", function(event) {
+    /*s[0].addEventListener("change", function(event) {
     let select = event.target;
     let radios = document.getElementsByClassName("radiobutton");
     if (select.value == "v3") {
@@ -18,7 +18,7 @@ function click1(event) {
     r1.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
     let r1 = event.target;
-    });
+    });*/
         
     let m = f1[0].value;
     if (s[0].value === "v1") {
