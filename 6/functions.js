@@ -15,7 +15,7 @@ function click1(event) {
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
-    event.preventDefault();
+    //event.preventDefault();
     return false;
 }
 window.addEventListener("DOMContentLoaded", function () {
