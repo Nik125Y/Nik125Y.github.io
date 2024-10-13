@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 window.addEventListener('DOMContentLoaded', function (event) {
   let s = document.getElementById("radiobutton");
-  s[0].addEventListener("change", function(event) {
+  s.addEventListener("change", function(event) {
     let radios = event.target;
     let select = document.getElementsByName("select1");
     let chek = document.getElementById("check");
