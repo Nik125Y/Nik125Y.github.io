@@ -1,27 +1,8 @@
-function click1(event) {
+window.addEventListener('DOMContentLoaded', function () {
+    function click1(event) {
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let s = document.getElementsByName("select1");
-    
-    s[0].addEventListener("change", function() {
-    let select = event.target;
-    let radios =  document.getElementById("radiobutton");
-    if (select.value === "v3") {
-      radios.style.display = "none";
-    }
-    else {
-      radios.style.display = "block";
-    }
-    });
-    
-    let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
-    
-    r1.forEach(function(radio) {
-    radio.addEventListener("change", function() {
-        let r = event.target;
-        //click1();
-    });   
-    });
         
     let m = f1[0].value;
     if (s[0].value === "v1") {
@@ -40,7 +21,31 @@ function click1(event) {
     return false;
 }
 
-window.addEventListener("DOMContentLoaded", function () {
+
+
+    s[0].addEventListener("change", function() {
+    let select = event.target;
+    let radios = document.getElementById("radiobutton");
+    console.log(select.value);            //remove
+    if (select.value === "v3") {
+      radios.style.display = "none";
+    }
+    else {
+      radios.style.display = "block";
+    }
+  });
+  
+  let rad = document.querySelectorAll(".myradios input[type=radio]");
+  rad.forEach(function(radio) {
+    radio.addEventListener("change", function() {
+      let rad = event.target;
+      console.log(rad.value);
+    });    
+  });
+  
+});
+
+/*window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button1");
     b.addEventListener("click", click1);
-});
+});*/
