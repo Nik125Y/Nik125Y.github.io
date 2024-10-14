@@ -1,11 +1,9 @@
 body{
-    display: flex;
-    flex-direction: column;
-    background:
-    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
-    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
-    background-color: rgb(128, 142, 156);
-    background-size:75px 100px;
+      background: url(https://nik125y.github.io/foto/fon2.png); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed; 
 }
 
 h1{
