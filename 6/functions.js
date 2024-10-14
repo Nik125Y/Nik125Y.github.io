@@ -27,7 +27,7 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let s = document.getElementsByName("selest1");
     let r = document.getElementById("result");
-    let c = document.getElementById("check");
+    let c = document.getElementsByName("check");
     let m = f1[0].value;
     
        if (r1[0].checked) {
@@ -43,9 +43,9 @@ function click1(event) {
     }
     if (r1[2].checked) {
       r.innerHTML = f1[0].value*1100;
-      if (c[0].value === "c1")
+      if (c.value === "c1")
         r.innerHTML += 100; 
-      if (c[0].value === "c1")
+      if (c.value === "c1")
         r.innerHTML += 500; 
     }
     if (m.match(/^\d+$/) === null) {
