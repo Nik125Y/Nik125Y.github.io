@@ -42,12 +42,15 @@ function click1(event) {
     
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
+         chek.style.display = "none";
        }
     if (r1[1].checked) {
         r.innerHTML = f1[0].value * 1;
+      chek.style.display = "none";
     }
     if (r1[2].checked) {
         r.innerHTML = f1[0].value * 1100;
+      chek.style.display = "block";
     }
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
