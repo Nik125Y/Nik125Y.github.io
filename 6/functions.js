@@ -1,5 +1,6 @@
 function click1(event) {
     let s = document.getElementById("radiobutton");
+    //let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
@@ -18,45 +19,39 @@ function click1(event) {
     }
     return false;
 }
+
 window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button1");
     b.addEventListener("click", click1);
 });
-
-window.addEventListener('DOMContentLoaded', function (event) {
-  let s = document.getElementById("radiobutton");
-  s.addEventListener("change", function(event) {
-    let radios = event.target;
-    let select = document.getElementsByName("select1");
-    let chek = document.getElementById("check");
-    if (radios.value === "r1") {
-      select.style.display = "none";
-      chek.style.display = "none";
-    }
-    else {
-      select.style.display = "block";
-      chek.style.display = "block";
-    }
-    if (radios.value == "r2") {
-      chek.style.display = "none";
-    }
-    else {
-      chek.style.display = "block";
-    }
-      if (radios.value == "r3") {
-      select.style.display = "none";
-    }
-    else {
-      select.style.display = "block";
-    }
-  });
-  
-  /*let r = document.querySelectorAll(".radiobutton input[type=radio]");
+    
+  let chek = document.getElementById("check");
+  let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
       let r = event.target;
+        if (r.value === "r1") {
+      //select.style.display = "none";
+      chek.style.display = "none";
+    }
+    else {
+      //select.style.display = "block";
+      chek.style.display = "block";
+    }
+    if (r.value == "r2") {
+      chek.style.display = "none";
+    }
+    else {
+      chek.style.display = "block";
+    }
+      /*if (r.value == "r3") {
+      select.style.display = "none";
+    }
+    else {
+      select.style.display = "block";
+    }*/
       console.log(r.value);
     });    
-  });*/
+  });
   
 });
