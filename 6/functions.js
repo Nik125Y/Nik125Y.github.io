@@ -8,19 +8,15 @@ window.addEventListener('DOMContentLoaded', function () {
       let r = event.target;
         console.log(r.value);
         if (r.value === "r1") {
-          s[0].disabled;
       chek.style.display = "none";
     }
     else {
-      s[0].enabled;
       chek.style.display = "block";
     }
-    if (r.value == "r2") {
-      s[0].style.display= "none"
+    if (r.value === "r2") {
       chek.style.display = "none";
     }
     else {
-      s[0].style.display= "blocl"
       chek.style.display = "block";
     }
       
