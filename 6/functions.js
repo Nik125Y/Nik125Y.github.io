@@ -24,8 +24,10 @@ window.addEventListener("DOMContentLoaded", function () {
     let b = document.getElementById("button1");
     b.addEventListener("click", click1);
 });
-    
+
+window.addEventListener('DOMContentLoaded', function () {
   let chek = document.getElementById("check");
+    let select = document.getElementsByName("selest1");
   let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
