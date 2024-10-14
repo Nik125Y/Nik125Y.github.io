@@ -44,7 +44,7 @@ function click1(event) {
       if (s[0].value === "v3"){
          r.innerHTML = f1[0].value*600; }
     }
-   if (r1[2].checked) 
+   if (r1[2].checked) {
            if (c1[0].checked && c2[0].checked){
                    r.innerHTML = f1[0].value*1200; 
            }
@@ -54,7 +54,8 @@ function click1(event) {
           if (c2[0].checked)
                 { r.innerHTML = f1[0].value*900; }
        }
-     else { r.innerHTML = f1[0].value*800;}
+   }
+   else { r.innerHTML = f1[0].value*800;}
   
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
