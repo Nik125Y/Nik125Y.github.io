@@ -1,17 +1,15 @@
 window.addEventListener('DOMContentLoaded', function () {
   let chek = document.getElementById("check");
-  let select = document.getElementsByName("selest1");
   let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
       let r = event.target;
         console.log(r.value);
         if (r.value === "r1") {
-      select[0].style.display = "none";
       chek.style.display = "none";
     }
     else {
-      select[0].style.display = "block";
+     
       chek.style.display = "block";
     }
     if (r.value == "r2") {
@@ -19,12 +17,6 @@ window.addEventListener('DOMContentLoaded', function () {
     }
     else {
       chek.style.display = "block";
-    }
-      if (r.value == "r3") {
-      select[0].style.display = "none";
-    }
-    else {
-      select[0].style.display = "block";
     }
       
     });    
@@ -42,21 +34,16 @@ function click1(event) {
     
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
-         chek.style.display = "none";
        }
     if (r1[1].checked) {
         r.innerHTML = f1[0].value * 1;
-      chek.style.display = "none";
     }
     if (r1[2].checked) {
         r.innerHTML = f1[0].value * 1100;
-      chek.style.display = "block";
     }
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
-    }
-    
-    
+    }    
     return false;
 }
 
