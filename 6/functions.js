@@ -45,10 +45,16 @@ function click1(event) {
          r.innerHTML = f1[0].value*600; }
     }
    if (r1[2].checked) {
-      if (c1[0].value === "c1")
+     if (c1[0].checked && c2[0].checked){
+       r.innerHTML = f1[0].value*1200; 
+     }
+     else{
+      if (c1[0].checked)
         r.innerHTML = f1[0].value*1100; 
-      if (c2[0].value === "c2")
+      if (c2[0].checked)
        r.innerHTML = f1[0].value*900;
+     }
+     else  r.innerHTML = f1[0].value*800;
     }
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
