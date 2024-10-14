@@ -44,13 +44,12 @@ function click1(event) {
       if (s[0].value === "v3"){
          r.innerHTML = f1[0].value*600; }
     }
-   /* if (r1[2].checked) {
-      r.innerHTML = f1[0].value*1100;
-      if (c[0].value === "c1")
-        r.innerHTML += 100; 
-      if (c[0].value === "c2")
-        r.innerHTML += 500; 
-    }*/
+   if (r1[2].checked) {
+      if (c1[0].value === "c1")
+        r.innerHTML = f1[0].value*1100; 
+      if (c2[0].value === "c2")
+       r.innerHTML = f1[0].value*900;
+    }
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }    
