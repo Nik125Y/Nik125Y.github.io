@@ -9,13 +9,7 @@ function click1(event) {
     
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
-       select[0].style.display = "block";
-      chek.style.display = "block";
-    }
-    else {
-    select[0].style.display = "none";
-      chek.style.display = "none";
-    }
+       }
     if (r1[1].checked) {
         r.innerHTML = f1[0].value * 1;
     }
