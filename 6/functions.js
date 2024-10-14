@@ -5,7 +5,6 @@ window.addEventListener('DOMContentLoaded', function () {
   r.forEach(function(radio) {
     radio.addEventListener("change", function() {
       let r = event.target;
-      console.log(r.value);
       
       if (r.value === "r1" ) {
       chek.style.display = "none";
@@ -31,25 +30,26 @@ function click1(event) {
     let r = document.getElementById("result");
     let c = document.getElementsByName("check");
     let m = f1[0].value;
-    console.log(s[0].value);
+    console.log(c.value);
+    console.log(c[0].value);
        if (r1[0].checked) {
-        r.innerHTML = f1[0].value * 23200; 
+        r.innerHTML = f1[0].value * 4200; 
        }
-    /*if (r1[1].checked) { r.innerHTML = f1[0].value*1;
+    if (r1[1].checked) {
       if (s[0].value === "v1"){
-        r.innerHTML+=20; }
+        r.innerHTML = f1[0].value*500; }
       if (s[0].value === "v2"){
-         r.innerHTML+=230; }
+         r.innerHTML = f1[0].value*400; }
       if (s[0].value === "v3"){
-         r.innerHTML+=520; }
-    }*/
-    if (r1[2].checked) {
+         r.innerHTML = f1[0].value*600; }
+    }
+   /* if (r1[2].checked) {
       r.innerHTML = f1[0].value*1100;
       if (c[0].value === "c1")
         r.innerHTML += 100; 
       if (c[0].value === "c2")
         r.innerHTML += 500; 
-    }
+    }*/
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }    
