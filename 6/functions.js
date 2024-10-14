@@ -5,7 +5,10 @@ function click1(event) {
     let r = document.getElementById("result");
     let m = f1[0].value;
     console.log(r1.value);
-    if (r1[0].value === "r1") {
+    r1.forEach(function(radio) {
+    radio.addEventListener("change", function(event) {
+      let r1 = event.target;
+       if (r1[0].value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
     if (r1[1].value === "r2") {
@@ -17,6 +20,8 @@ function click1(event) {
     if (m.match(/^\d+$/) === null) {
         r.innerHTML = "некорректное значение";
     }
+    });   
+    
     return false;
 }
 
@@ -27,7 +32,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 window.addEventListener('DOMContentLoaded', function () {
   let chek = document.getElementById("check");
-    let select = document.getElementsByName("selest1");
+  let select = document.getElementsByName("selest1");
   let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
