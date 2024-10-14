@@ -29,7 +29,6 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
-    console.log(r1[0].value);
     
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
