@@ -3,6 +3,7 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
+    console.log(s.value);
     if (s.value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
@@ -50,12 +51,12 @@ window.addEventListener('DOMContentLoaded', function (event) {
     }
   });
   
-  let r = document.querySelectorAll(".radiobutton input[type=radio]");
+  /*let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
       let r = event.target;
       console.log(r.value);
     });    
-  });
+  });*/
   
 });
