@@ -1,21 +1,26 @@
 window.addEventListener('DOMContentLoaded', function () {
   let chek = document.getElementById("check");
+  let s = document.getElementsByName("selest1");
+  //let s1[0]=s;
   let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
       let r = event.target;
         console.log(r.value);
         if (r.value === "r1") {
+          s[0].disabled;
       chek.style.display = "none";
     }
     else {
-     
+      s[0].enabled;
       chek.style.display = "block";
     }
     if (r.value == "r2") {
+      s[0].style.display= "none"
       chek.style.display = "none";
     }
     else {
+      s[0].style.display= "blocl"
       chek.style.display = "block";
     }
       
@@ -24,8 +29,6 @@ window.addEventListener('DOMContentLoaded', function () {
   
 });
 function click1(event) {
-    let select = document.getElementsByName("selest1");
-    let chek = document.getElementById("check");
     let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
