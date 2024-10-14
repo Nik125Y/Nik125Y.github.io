@@ -6,13 +6,15 @@ window.addEventListener('DOMContentLoaded', function () {
     radio.addEventListener("change", function(event) {
       let r = event.target;
         console.log(r.value);
+      
       if (r.value === "r1" ) {
       chek.style.display = "none";
       s.style.display = "none";
           }
-          else {s.style.display = "block";
+          /*else {s.style.display = "block";
     chek.style.display = "block";
-      }
+      }*/
+      
        /* if (r.value === "r1" || r.value === "r2") {
       chek.style.display = "none";
           if (r.value === "r1") {
@@ -45,14 +47,14 @@ function click1(event) {
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
        }
-    /*if (r1[1].checked) { r.innerHTML = f1[0].value*1;
+    if (r1[1].checked) { r.innerHTML = f1[0].value*1;
       if (s[0].value === "v1"){
         r.innerHTML+=20; }
       if (s[0].value === "v2"){
          r.innerHTML+=230; }
       if (s[0].value === "v3"){
          r.innerHTML+=520; }
-    }*/
+    }
     if (r1[2].checked) {
       r.innerHTML = f1[0].value*1100;
       if (c[0].value === "c1")
