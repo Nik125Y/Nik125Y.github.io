@@ -31,8 +31,8 @@ function click1(event) {
     let c1 = document.getElementsByName("check-1");
     let c2 = document.getElementsByName("check-2");
     let m = f1[0].value;
-    console.log(c1.value);
-    console.log(c2[0].value);
+    console.log(c1.checked);
+    console.log(c2[0].checked);
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 4200; 
        }
