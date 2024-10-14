@@ -36,6 +36,7 @@ window.addEventListener('DOMContentLoaded', function () {
   r.forEach(function(radio) {
     radio.addEventListener("change", function(event) {
       let r = event.target;
+        console.log(r.value);
         if (r.value === "r1") {
       select[0].style.display = "none";
       chek.style.display = "none";
@@ -56,7 +57,7 @@ window.addEventListener('DOMContentLoaded', function () {
     else {
       select[0].style.display = "block";
     }
-      console.log(r.value);
+      
     });    
   });
   
