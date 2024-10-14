@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', function () {
-  let chek = document.getElementById("check");
+  let chek = document.getElementById("ch");
   let s = document.getElementById("sel");
   let r = document.querySelectorAll(".radiobutton input[type=radio]");
   r.forEach(function(radio) {
@@ -9,6 +9,14 @@ window.addEventListener('DOMContentLoaded', function () {
       
       if (r.value === "r1" ) {
       chek.style.display = "none";
+      s.style.display = "none";
+          }
+      if (r.value === "r2" ) {
+      chek.style.display = "none";
+      s.style.display = "block";
+          }
+      if (r.value === "r3" ) {
+      chek.style.display = "block";
       s.style.display = "none";
           }
          
