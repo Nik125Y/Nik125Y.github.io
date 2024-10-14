@@ -19,11 +19,11 @@ window.addEventListener('DOMContentLoaded', function () {
 function click1(event) {
     let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
     let f1 = document.getElementsByName("field1");
-    //let s = document.getElementsByName("select1");
+    let s = document.getElementsByName("select1");
     let r = document.getElementById("result");
     let c = document.getElementsByName("check");
     let m = f1[0].value;
-    //console.log(s[0].value);
+    console.log(s[0].value);
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 23200; 
        }
