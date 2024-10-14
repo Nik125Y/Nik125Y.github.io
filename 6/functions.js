@@ -4,14 +4,14 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
-    console.log(r1);
-    if (r1.value === "r1") {
+    console.log(r1.value);
+    if (r1[0].value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
-    if (r1.value === "r2") {
+    if (r1[1].value === "r2") {
         r.innerHTML = f1[0].value * 1;
     }
-    if (r1.value === "r3") {
+    if (r1[2].value === "r3") {
         r.innerHTML = f1[0].value * 1100;
     }
     if (m.match(/^\d+$/) === null) {
@@ -33,11 +33,11 @@ window.addEventListener('DOMContentLoaded', function () {
     radio.addEventListener("change", function(event) {
       let r = event.target;
         if (r.value === "r1") {
-      select.style.display = "none";
+      select[0].style.display = "none";
       chek.style.display = "none";
     }
     else {
-      select.style.display = "block";
+      select[0].style.display = "block";
       chek.style.display = "block";
     }
     if (r.value == "r2") {
@@ -47,10 +47,10 @@ window.addEventListener('DOMContentLoaded', function () {
       chek.style.display = "block";
     }
       if (r.value == "r3") {
-      select.style.display = "none";
+      select[0].style.display = "none";
     }
     else {
-      select.style.display = "block";
+      select[0].style.display = "block";
     }
       console.log(r.value);
     });    
