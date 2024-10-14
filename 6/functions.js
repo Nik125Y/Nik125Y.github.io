@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', function () {
     
     if (r.value === "r2") {
       chek.style.display = "none";
-      s.style.display = "block";
+      s.style.display = "flex";
     }
     if (r.value === "r2") {
       chek.style.display = "block";
