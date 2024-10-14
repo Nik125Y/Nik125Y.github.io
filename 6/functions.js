@@ -39,7 +39,7 @@ function click1(event) {
       r.innerHTML = f1[0].value*1100;
       if (c[0].value === "c1")
         r.innerHTML += 100; 
-      if (c[0].value === "c2)
+      if (c[0].value === "c2")
         r.innerHTML += 500; 
     }
     if (m.match(/^\d+$/) === null) {
