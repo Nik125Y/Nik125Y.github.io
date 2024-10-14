@@ -1,17 +1,17 @@
 function click1(event) {
-    let s = document.getElementById("radiobutton");
-    //let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
+    //let s = document.getElementById("radiobutton");
+    let r1 = document.querySelectorAll(".radiobutton input[type=radio]");
     let f1 = document.getElementsByName("field1");
     let r = document.getElementById("result");
     let m = f1[0].value;
-    console.log(s.value);
-    if (s.value === "r1") {
+    console.log(r1.value);
+    if (r1.value === "r1") {
         r.innerHTML = f1[0].value * 23200;
     }
-    if (s.value === "r2") {
+    if (r1.value === "r2") {
         r.innerHTML = f1[0].value * 1;
     }
-    if (s.value === "r3") {
+    if (r1.value === "r3") {
         r.innerHTML = f1[0].value * 1100;
     }
     if (m.match(/^\d+$/) === null) {
