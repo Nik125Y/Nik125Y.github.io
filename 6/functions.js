@@ -36,13 +36,13 @@ window.addEventListener('DOMContentLoaded', function (event) {
       select.style.display = "block";
       chek.style.display = "block";
     }
-    if (select.value == "r2") {
+    if (radios.value == "r2") {
       chek.style.display = "none";
     }
     else {
       chek.style.display = "block";
     }
-      if (select.value == "r3") {
+      if (radios.value == "r3") {
       select.style.display = "none";
     }
     else {
