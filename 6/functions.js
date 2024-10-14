@@ -28,10 +28,11 @@ function click1(event) {
     let f1 = document.getElementsByName("field1");
     let s = document.getElementsByName("select1");
     let r = document.getElementById("result");
-    let c = document.getElementsByName("check");
+    let c1 = document.getElementsByName("check-1");
+    let c2 = document.getElementsByName("check-2");
     let m = f1[0].value;
-    console.log(c.value);
-    console.log(c[0].value);
+    console.log(c1.value);
+    console.log(c2[0].value);
        if (r1[0].checked) {
         r.innerHTML = f1[0].value * 4200; 
        }
